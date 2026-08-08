@@ -3,7 +3,7 @@ $(document).ready(function () {
 	if (document.querySelector('[data-fancybox]')) {
 		Fancybox.bind('[data-fancybox]', {
 			dragToClose: false,
-			closeButton: false,
+			closeButton: true,
 		});
 	}
 
